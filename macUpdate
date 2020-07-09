@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+echo -e "Checking Brew..."
+brew outdated
+echo -e "Checking Cask..."
+brew cask outdated
+echo -e "Checking Apple Store..."
+mas outdated
+
+echo -e "Updating Applications..."
+    brew update
+    brew upgrade
+
+    mas upgrade
+
+    brew cask upgrade
+
+echo -e "Cleaning Up..."
+    brew cleanup
+
+echo -e "Updating Successfull!"
