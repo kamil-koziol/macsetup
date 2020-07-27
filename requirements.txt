@@ -1,0 +1,8 @@
+numpy
+jupyterlab
+pandas
+matplotlib
+Pillow
+requests
+opencv-python
+opencv-contrib-python
